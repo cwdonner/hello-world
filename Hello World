@@ -1,7 +1,14 @@
+# Hello World github learning practice
+
 a = ["a", "b", "c"]
+b = {"a": "silence", "b": "noise", "c": "static"}
+b['d'] = 'hiss'
+for index, value in enumerate(a, start=1):
+    print("Hello world", index, value)
 
-for value in a:
-    print("Hello world")
+print("I'm done with a now.")
 
-print("I'm done now.")
+for key, value in b.items():
+    print('\t', key, '\t', value)
 
+print("I'm done with b now too.")
